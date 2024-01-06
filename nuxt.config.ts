@@ -10,5 +10,15 @@ export default defineNuxtConfig({
     "@" : "/"
   },
   // @ts-ignore
-  css:['@/assets/scss/index.scss'],
+  css:['@/assets/main.scss'],
+  modules: ['@nuxt/ui'],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "~/assets/scss/index.scss" as *;'
+        }
+      }
+    }
+  }
 })

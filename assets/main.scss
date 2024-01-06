@@ -1,0 +1,13 @@
+@import "assets/scss/index.scss";
+
+@font-face {
+  font-family: 'YuanTi';
+  src: url("assets/fonts/有爱魔兽圆体-M.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "YuanTi", "sans-serif";
+}

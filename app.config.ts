@@ -1,4 +1,8 @@
 export default defineAppConfig({
     title:"My Web",
-    theme:{}
+    theme:{},
+    ui:{
+        primary:'green',
+        gray:'cool',
+    },
 })
