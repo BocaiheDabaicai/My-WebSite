@@ -19,10 +19,10 @@ import Contents from "~/components/Contents.vue";
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    //align-items: center;
     overflow-x: hidden;
-    //background-image: url("/assets/img/background.jpg");
-    background-image: url("/assets/img/background-dark.jpg");
+    background-image: url("/assets/img/background.jpg");
+    //background-image: url("/assets/img/background-dark.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

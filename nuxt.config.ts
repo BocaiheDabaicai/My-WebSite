@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   alias:{
     "@" : "/"
   },
+  ui:{
+    icons:['mdi']
+  },
   // @ts-ignore
   css:['@/assets/main.scss'],
   modules: ['@nuxt/ui'],
@@ -20,5 +23,8 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+  colorMode: {
+    // preference: 'dark'  // 暂不实现主题切换
   }
 })
