@@ -12,6 +12,7 @@ body {
   font-family: "YuanTi", "sans-serif";
 }
 
+// 页面过渡、布局过渡
 .page-enter-active,
 .page-leave-active {
   transition: all 0.34s;
@@ -22,6 +23,8 @@ body {
   opacity: 0;
   filter: blur(1rem);
 }
+
+// 首页-卡片-过渡效果
 .card-move,
 .card-enter-active,
 .card-leave-active {

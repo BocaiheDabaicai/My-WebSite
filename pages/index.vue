@@ -63,7 +63,7 @@ function update(value) {
                          :model-value="modelValue" @update:model-value="update" />
         </div>
         <UCard class="contents">
-            <transition-group name="card" mode="out-in">
+            <transition-group name="card">
                 <IndexCard v-for="item in slicePage" :key="item" :title="item.title" :description="item.description" />
             </transition-group>
         </UCard>
