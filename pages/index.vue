@@ -57,7 +57,7 @@ definePageMeta({
                     React,vue,webpack与vite,pinia
                 </div>
                 <div class="progress">
-                    <UProgress :value="33" indicator />
+                    <UProgress :value="72" indicator />
                 </div>
             </div>
         </div>
